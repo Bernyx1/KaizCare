@@ -10,7 +10,7 @@ export default class Menu extends Component {
     {/* Brand Logo */}
     <a  className="brand-link">
       <img src="dist/img/logo.png" alt="KaizCare" className="brand-image img-circle elevation-3" style={{opacity: '.8'}} />
-      <span className="brand-text font-weight-light">Kaiz Care</span>
+      <span className="brand-text font-weight-light text-white">Kaiz Care</span>
     </a>
     {/* Sidebar */}
     <div className="sidebar">
@@ -28,24 +28,23 @@ export default class Menu extends Component {
         <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           {/* Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library */}
-          <li className="nav-item has-treeview menu-open">
-            <a  className="nav-link active">
+          <li className="nav-item has-treeview">
+            <a href="/" className="nav-link active">
               <i className="nav-icon fas fa-tachometer-alt" />
               <p>
                 Dashboard
-               
+
               </p>
             </a>
-           
+
           </li>
-        
+
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" id="dropdown">
               <i className="nav-icon fas fa-wheelchair" />
               <p>
-              Patients
+                Patients
                 <i className="fas fa-angle-left right" />
-            
               </p>
             </a>
             <ul className="nav nav-treeview">
@@ -73,11 +72,10 @@ export default class Menu extends Component {
                   <p>Edit Patient</p>
                 </a>
               </li>
-              
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" id="dropdown">
               <i className="nav-icon fa fa-user-md" />
               <p>
                 Doctors
@@ -113,7 +111,7 @@ export default class Menu extends Component {
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" id="dropdown">
               <i className="nav-icon far fa-edit" />
               <p>
                 Appointments
@@ -145,12 +143,12 @@ export default class Menu extends Component {
                   <p>Edit Appointment</p>
                 </a>
               </li>
-             
-            
+
+
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" id="dropdown">
               <i className="nav-icon fas fa-dollar-sign" />
               <p>
                 Payments
@@ -176,11 +174,11 @@ export default class Menu extends Component {
                   <p>Payment Invoice</p>
                 </a>
               </li>
-            
+
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" id="dropdown">
               <i className="nav-icon fas fa-key" />
               <p>
                 Room Allotment
@@ -218,9 +216,9 @@ export default class Menu extends Component {
               </p>
             </a>
           </li>
-          
+
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" id="dropdown">
               <i className="nav-icon far fa-envelope" />
               <p>
                 Mailbox
@@ -248,11 +246,9 @@ export default class Menu extends Component {
               </li>
             </ul>
           </li>
-          
-             
-          
+
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" id="dropdown">
               <i className="nav-icon far fa-plus-square" />
               <p>
                 Settings
@@ -290,8 +286,8 @@ export default class Menu extends Component {
                   <p>Lockscreen</p>
                 </a>
               </li>
-              
-              
+
+
               <li className="nav-item">
                 <a href="pages/examples/404.html" className="nav-link">
                   <i className="far fa-circle nav-icon" />
@@ -304,12 +300,11 @@ export default class Menu extends Component {
                   <p>Error 500</p>
                 </a>
               </li>
-             
-             
+
+
             </ul>
           </li>
-    
-         
+
         </ul>
       </nav>
       {/* /.sidebar-menu */}
