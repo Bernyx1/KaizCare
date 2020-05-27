@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Dashboard from './components/Dashboard'
+
 
 export default class Menu extends Component {
     render() {
@@ -49,7 +49,7 @@ export default class Menu extends Component {
             </a>
             <ul className="nav nav-treeview">
               <li className="nav-item">
-                <a href="#addPatient Form" className="nav-link">
+                <a href="../components/AddPatientsForm.js" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Add Patient</p>
                 </a>
