@@ -6,11 +6,11 @@ export default class AddPatients extends Component {
     render() {
         return (
             <div>
-          <div className="container-fluid">
+          <div className="content-wrapper">
   <div className="row">
-    {/* left column */}
-    <div className="col-md-6">
-      {/* general form elements */}
+ 
+    <div className="col-md-12 ">
+      {/* add patient form elements */}
       <div className="card card-primary">
         <div className="card-header">
           <h3 className="card-title">Add Patient</h3>
@@ -20,19 +20,43 @@ export default class AddPatients extends Component {
         <form role="form">
           <div className="card-body">
             <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email address</label>
-              <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Enter email" />
+              <label >Patient Name</label>
+              <input type="text" className="form-control"  placeholder="Patient Name" />
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputPassword1">Password</label>
-              <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
+              <label >Date Of Birth</label>
+              <input type="date" className="form-control"   />
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputFile">File input</label>
+              <label> Age</label>
+              <input type="number" className="form-control"   />
+            </div>
+            <div className="form-group">
+              <label >Phone</label>
+              <input type="tel" className="form-control" placeholder='Phone'  />
+            </div>
+
+            <div className="form-group">
+              <label >Email</label>
+              <input type="email" className="form-control" placeholder='Email'  />
+            </div>
+            <div className="form-group">
+              <label >Gender</label>
+              <input type="radio"  name='gender' value='Male'  />Male
+              <input type="radio" name='gender' value='Female'  />Female
+            </div>
+
+
+            <div className="form-group">
+              <label >Address</label><br></br>
+            <textarea placeholder='Address'></textarea>
+            </div>
+            <div className="form-group">
+              <label >File input</label>
               <div className="input-group">
                 <div className="custom-file">
-                  <input type="file" className="custom-file-input" id="exampleInputFile" />
-                  <label className="custom-file-label" htmlFor="exampleInputFile">Choose file</label>
+                  <input type="file" className="custom-file-input"  />
+                  <label className="custom-file-label" >Choose file</label>
                 </div>
                 <div className="input-group-append">
                   <span className="input-group-text" id>Upload</span>
@@ -40,8 +64,8 @@ export default class AddPatients extends Component {
               </div>
             </div>
             <div className="form-check">
-              <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-              <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
+              <input type="checkbox" className="form-check-input"  />
+              <label className="form-check-label" >Please Confirm</label>
             </div>
           </div>
           {/* /.card-body */}

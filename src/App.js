@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
      <BrowserRouter>
       <div>
-                         <MainComponent/>
+    <MainComponent/>
    </div>
    </BrowserRouter>
     )

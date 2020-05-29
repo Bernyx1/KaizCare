@@ -4,7 +4,8 @@ import Header from './Header'
 import Menu from './Menu'
 import Footer from './Footer'
 import Dashboard from './Dashboard'
-import {Switch, Route, Redirect} from 'react-router-dom'
+import PatientsListForm from './PatientsListForm'
+import {Switch, Route,Redirect} from 'react-router-dom'
 
 
 export default class MainComponent extends Component {
@@ -14,10 +15,13 @@ export default class MainComponent extends Component {
       <div>
      <Header/>
      <Menu/>
-     <Dashboard/>
+  
      <Switch>
+        <Route path='/' component={Dashboard} exact={true} />
          <Route path='/addPatientsForm' component={AddPatientsForm} />
-         <Redirect to='/#'/>
+          <Route path='/PatientsListForm' component={PatientsListForm}/>
+         <Redirect to='/' />
+        
      </Switch>
      <Footer/>
    </div>

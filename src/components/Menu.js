@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 
 export default class Menu extends Component {
@@ -49,28 +50,28 @@ export default class Menu extends Component {
             </a>
             <ul className="nav nav-treeview">
               <li className="nav-item">
-                <a href="../components/AddPatientsForm.js" className="nav-link">
+                <Link to='/addPatientsForm' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Add Patient</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#allPatients info" className="nav-link">
+                <Link to= "/PatientsListForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>All Patients</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#patientDetailsForm" className="nav-link">
+                <Link  to="/patientDetailsForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Patient Details</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#editPatientForm" className="nav-link">
+                <Link to="/editPatientForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Edit Patient</p>
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
@@ -84,29 +85,29 @@ export default class Menu extends Component {
             </a>
             <ul className="nav nav-treeview">
               <li className="nav-item">
-                <a href="#addDoctorForm" className="nav-link">
+                <Link to="/addDoctorForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Add Doctor</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#allDoctorsForm" className="nav-link">
+                <Link to="/allDoctorsForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>All Doctors</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#doctorDetailsForm" className="nav-link">
+                <Link to="/doctorDetailsForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Doctor Details</p>
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a href="#editdoctorForm" className="nav-link">
+                <Link to="/editdoctorForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p> Edit Doctor </p>
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
@@ -157,10 +158,10 @@ export default class Menu extends Component {
             </a>
             <ul className="nav nav-treeview">
               <li className="nav-item">
-                <a href="#addPayment" className="nav-link">
+                <Link to="/addPayment" className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Add Payment</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="#All Payments" className="nav-link">
