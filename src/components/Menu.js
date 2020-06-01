@@ -127,16 +127,16 @@ export default class Menu extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to='' className="nav-link">
+                <Link to='/allAppointment' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>All Appointments</p>
                 </Link>
               </li>
               <li className="nav-item">
-                <a href="#appointmentDetails" className="nav-link">
+                <Link to ='/appointmentDetails' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Appointment Details</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="#editAppointment" className="nav-link">

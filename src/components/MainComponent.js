@@ -15,6 +15,8 @@ import Recover from './Recover'
 import Register from './Register'
 import LockScreen from './LockScreen'
 import AddAppointment from './AddAppointment'
+import AppointmentList from './AppointmentList'
+import AppointmentDetails from './AppointmentDetails'
 import {Switch, Route,Redirect} from 'react-router-dom'
 
 
@@ -40,6 +42,8 @@ export default class MainComponent extends Component {
           <Route path='/register' component={Register} />
           <Route path='/lockScreen' component={LockScreen} />
           <Route path='/addAppointment' component={AddAppointment} />
+          <Route path='/allAppointment' component={AppointmentList} />
+          <Route path='/appointmentDetails' component={AppointmentDetails} />
          <Redirect to='/' />
         
      </Switch>
