@@ -9,6 +9,12 @@ import PatientDetailsForm from './PatientDetailsForm'
 import EditPatientForm from './EditPatientForm'
 import AddDoctorForm from './AddDoctorForm'
 import DoctorsListForm from './DoctorsListForm'
+import Login from './Login'
+import ResetPassword from './ResetPassword'
+import Recover from './Recover'
+import Register from './Register'
+import LockScreen from './LockScreen'
+import AddAppointment from './AddAppointment'
 import {Switch, Route,Redirect} from 'react-router-dom'
 
 
@@ -28,6 +34,12 @@ export default class MainComponent extends Component {
           <Route path='/editPatientForm' component={EditPatientForm} />
           <Route path='/addDoctorForm' component={AddDoctorForm} />
           <Route path='/allDoctorsForm' component={DoctorsListForm} />
+          <Route path='/login to kaziCare' component={Login} />
+          <Route path='/forgotPassword' component={ResetPassword} />
+          <Route path='/recoverPassword' component={Recover} />
+          <Route path='/register' component={Register} />
+          <Route path='/lockScreen' component={LockScreen} />
+          <Route path='/addAppointment' component={AddAppointment} />
          <Redirect to='/' />
         
      </Switch>

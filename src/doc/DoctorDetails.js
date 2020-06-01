@@ -15,6 +15,8 @@ export default class DoctorDetails extends Component {
         <div className="card-header">
           <h3 className="card-title"> Doctor Details</h3>
         </div>
+
+        
         {/* /.card-header */}
             <table  className="table table-bordered table-hover">
                 <tbody>

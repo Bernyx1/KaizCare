@@ -121,16 +121,16 @@ export default class Menu extends Component {
             </a>
             <ul className="nav nav-treeview">
               <li className="nav-item">
-                <a href="#addAppointment" className="nav-link">
+                <Link to ='/addAppointment' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Add Appointment</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#allAppointment" className="nav-link">
+                <Link to='' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>All Appointments</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="#appointmentDetails" className="nav-link">
@@ -258,49 +258,37 @@ export default class Menu extends Component {
             </a>
             <ul className="nav nav-treeview">
               <li className="nav-item">
-                <a href="#pages/examples/login.html" className="nav-link">
+                <Link to ='/login to kaziCare' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Login</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#pages/examples/register.html" className="nav-link">
+                <Link to='/register' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Register</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#pages/examples/forgot-password.html" className="nav-link">
+                <Link to ='/forgotPassword' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Forgot Password</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#pages/examples/recover-password.html" className="nav-link">
+                <Link to='/recoverPassword' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Recover Password</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#pages/examples/lockscreen.html" className="nav-link">
+                <Link to='/lockScreen' className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>Lockscreen</p>
-                </a>
+                </Link>
               </li>
 
 
-              <li className="nav-item">
-                <a href="pages/examples/404.html" className="nav-link">
-                  <i className="far fa-circle nav-icon" />
-                  <p>Error 404</p>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="pages/examples/500.html" className="nav-link">
-                  <i className="far fa-circle nav-icon" />
-                  <p>Error 500</p>
-                </a>
-              </li>
 
 
             </ul>
