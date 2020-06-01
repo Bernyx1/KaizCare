@@ -44,7 +44,7 @@ export default class DoctorsList extends Component {
                       </ul>
                     </div>
                     <div className="col-5 text-center">
-                      <img src='../images/doc.jpg' alt className="img-circle img-fluid" />
+                      <img src='../../dist/images/doc.jpg' alt className="img-circle img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ export default class DoctorsList extends Component {
                       </ul>
                     </div>
                     <div className="col-5 text-center">
-                      <img src='../images/doc2.jpg' alt className="img-circle img-fluid" />
+                      <img src='../../dist/images/doc2.jpg' alt className="img-circle img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ export default class DoctorsList extends Component {
                       </ul>
                     </div>
                     <div className="col-5 text-center">
-                      <img src='../images/doc3.jpg' alt className="img-circle img-fluid" />
+                      <img src='../../dist/images/doc3.jpg' alt className="img-circle img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ export default class DoctorsList extends Component {
                       </ul>
                     </div>
                     <div className="col-5 text-center">
-                      <img src="../images/doc.jpg" alt className="img-circle img-fluid" />
+                      <img src="../../dist/images/doc.jpg" alt className="img-circle img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -171,7 +171,7 @@ export default class DoctorsList extends Component {
                       </ul>
                     </div>
                     <div className="col-5 text-center">
-                      <img src="../../dist/img/user1-128x128.jpg" alt className="img-circle img-fluid" />
+                      <img src="../../dist/images/doc.jpg" alt className="img-circle img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -203,7 +203,7 @@ export default class DoctorsList extends Component {
                       </ul>
                     </div>
                     <div className="col-5 text-center">
-                      <img src="../images/doc2.jpg" alt className="img-circle img-fluid" />
+                      <img src="../../dist/images/doc2.jpg" alt className="img-circle img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -234,7 +234,7 @@ export default class DoctorsList extends Component {
                       </ul>
                     </div>
                     <div className="col-5 text-center">
-                      <img src="../images/doc.jpg" alt className="img-circle img-fluid" />
+                      <img src="../../dist/images/doc.jpg" alt className="img-circle img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -266,7 +266,7 @@ export default class DoctorsList extends Component {
                       </ul>
                     </div>
                     <div className="col-5 text-center">
-                      <img src="../images/doc3.jpg" alt className="img-circle img-fluid" />
+                      <img src="../../dist/images/doc3.jpg" alt className="img-circle img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -298,7 +298,7 @@ export default class DoctorsList extends Component {
                       </ul>
                     </div>
                     <div className="col-5 text-center">
-                      <img src="../../dist/img/user2-160x160.jpg" alt className="img-circle img-fluid" />
+                      <img src="../../dist/images/doc3.jpg" alt className="img-circle img-fluid" />
                     </div>
                   </div>
                 </div>
