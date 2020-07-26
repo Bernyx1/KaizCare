@@ -4,11 +4,11 @@ import AddPatients from '../js/AddPatients.js'
 
 
 
-export default class AddPatientsForm extends Component {
+export default class PatientRegistration extends Component {
     render() {
         return (
             <div>
-               
+            
                  <AddPatients/>
                 
             </div>

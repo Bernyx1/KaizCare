@@ -9,10 +9,10 @@ export default class Menu extends Component {
   {/* Main Sidebar Container */}
   <aside className="main-sidebar sidebar-dark-primary elevation-4">
     {/* Brand Logo */}
-    <a  className="brand-link">
+    <Link  className="brand-link">
       <img src="dist/img/logo.png" alt="KaizCare" className="brand-image img-circle elevation-3" style={{opacity: '.8'}} />
       <span className="brand-text font-weight-light text-white">Kaiz Care</span>
-    </a>
+    </Link>
     {/* Sidebar */}
     <div className="sidebar">
       {/* Sidebar user panel (optional) */}
@@ -21,7 +21,7 @@ export default class Menu extends Component {
           <img src="dist/img/user1.jpg" className="img-circle elevation-2" alt="user" />
         </div>
         <div className="info">
-          <a href="#" className="d-block">Bernice Owusu</a>
+          <Link className="d-block">Bernice Owusu</Link>
         </div>
       </div>
       {/* Sidebar Menu */}
@@ -30,70 +30,66 @@ export default class Menu extends Component {
           {/* Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library */}
           <li className="nav-item has-treeview">
-            <a href="/" className="nav-link active">
+            <Link to='/' className="nav-link active">
               <i className="nav-icon fas fa-tachometer-alt" />
               <p>
                 Dashboard
 
               </p>
-            </a>
+            </Link>
 
           </li>
 
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link" id="dropdown">
+            <Link to='' className="nav-link" id="dropdown">
               <i className="nav-icon fas fa-wheelchair" />
               <p>
-                Patients
+                Attendance
                 <i className="fas fa-angle-left right" />
               </p>
-            </a>
+            </Link>
             <ul className="nav nav-treeview">
               <li className="nav-item">
-                <Link to='/addPatientsForm' className="nav-link">
+                <Link to='/newPatientRegistrationForm' className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Add Patient</p>
+                  <p>New Patient registration</p>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to= "/PatientsListForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>All Patients</p>
+                  <p>Attendance Consultation</p>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link  to="/patientDetailsForm" className="nav-link">
+                <Link to= "/PatientsListForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Patient Details</p>
+                  <p>Daily Measurement</p>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/editPatientForm" className="nav-link">
-                  <i className="far fa-circle nav-icon" />
-                  <p>Edit Patient</p>
-                </Link>
-              </li>
+             
+             
             </ul>
           </li>
           <li className="nav-item has-treeview">
-            <a href="#" className="nav-link" id="dropdown">
+            <Link to='' className="nav-link" id="dropdown">
               <i className="nav-icon fa fa-user-md" />
               <p>
-                Doctors
+               SetUps
                 <i className="right fas fa-angle-left" />
               </p>
-            </a>
+            </Link>
             <ul className="nav nav-treeview">
               <li className="nav-item">
                 <Link to="/addDoctorForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Add Doctor</p>
+                  <p>Data Entry</p>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/allDoctorsForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>All Doctors</p>
+                  <p>Medication</p>
                 </Link>
               </li>
               <li className="nav-item">

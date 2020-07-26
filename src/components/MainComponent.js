@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import AddPatientsForm from './AddPatientsForm'
+import PatientRegistration from './PatientRegistration'
 import Header from './Header'
 import Menu from './Menu'
 import Footer from './Footer'
@@ -30,7 +30,7 @@ export default class MainComponent extends Component {
   
      <Switch>
         <Route path='/' component={Dashboard} exact={true} />
-         <Route path='/addPatientsForm' component={AddPatientsForm} />
+         <Route path='/newPatientRegistrationForm' component={PatientRegistration} />
           <Route path='/PatientsListForm' component={PatientsListForm}/>
           <Route path='/patientDetailsForm' component={PatientDetailsForm}/>
           <Route path='/editPatientForm' component={EditPatientForm} />
