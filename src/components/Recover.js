@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 export default class Recover extends Component {
     render() {
         return (
-            <div className='container' className='content-wrapper'>
+            <div  className='content-wrapper'>
                 <div className="login-box">
   <div className="login-logo">
     <p>KaziCare</p>

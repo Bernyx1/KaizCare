@@ -11,7 +11,7 @@ export default class Menu extends Component {
     {/* Brand Logo */}
     <Link  className="brand-link">
       <img src="dist/img/logo.png" alt="KaizCare" className="brand-image img-circle elevation-3" style={{opacity: '.8'}} />
-      <span className="brand-text font-weight-light text-white">Kaiz Care</span>
+      <span className="brand-text font-weight-light text-white">Claim Care</span>
     </Link>
     {/* Sidebar */}
     <div className="sidebar">
@@ -21,7 +21,7 @@ export default class Menu extends Component {
           <img src="dist/img/user1.jpg" className="img-circle elevation-2" alt="user" />
         </div>
         <div className="info">
-          <Link className="d-block">Bernice Owusu</Link>
+          <Link className="d-block">Bella Frimpong</Link>
         </div>
       </div>
       {/* Sidebar Menu */}
@@ -44,7 +44,7 @@ export default class Menu extends Component {
             <Link to='' className="nav-link" id="dropdown">
               <i className="nav-icon fas fa-wheelchair" />
               <p>
-                Attendance
+              Patients
                 <i className="fas fa-angle-left right" />
               </p>
             </Link>
@@ -58,13 +58,20 @@ export default class Menu extends Component {
               <li className="nav-item">
                 <Link to= "/PatientsListForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Attendance Consultation</p>
+                  <p>All Patients</p>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to= "/PatientsListForm" className="nav-link">
+                <Link to= "/patientDetailsForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Daily Measurement</p>
+                  <p>Patient Details</p>
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to= "/editPatientForm" className="nav-link">
+                  <i className="far fa-circle nav-icon" />
+                  <p>Edit Patient</p>
                 </Link>
               </li>
              
@@ -75,7 +82,7 @@ export default class Menu extends Component {
             <Link to='' className="nav-link" id="dropdown">
               <i className="nav-icon fa fa-user-md" />
               <p>
-               SetUps
+             Doctors
                 <i className="right fas fa-angle-left" />
               </p>
             </Link>
@@ -83,13 +90,13 @@ export default class Menu extends Component {
               <li className="nav-item">
                 <Link to="/addDoctorForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Data Entry</p>
+                  <p>Add Doctor</p>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/allDoctorsForm" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Medication</p>
+                  <p>All Doctors</p>
                 </Link>
               </li>
               <li className="nav-item">

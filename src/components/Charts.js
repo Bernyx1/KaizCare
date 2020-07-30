@@ -36,7 +36,7 @@ class Chart extends Component{
     }
     render(){
         return(
-            <div className='chart' className='container'>
+            <div className='chart ' >
                <div className='row'>
                     <div className='col-md-6'>
                     <Line
